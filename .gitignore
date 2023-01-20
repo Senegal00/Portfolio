@@ -1,0 +1,10 @@
+# Aqui se agregan los directorios que no se van a incluir en el portafolio
+Python/
+Laravel/
+Angular/
+Login/
+.vscode/
+node_modules/
+get-pip.py
+package-lock.json
+package.json
