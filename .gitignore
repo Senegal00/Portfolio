@@ -5,6 +5,7 @@ Angular/
 Login/
 .vscode/
 node_modules/
+GitDemos/
 google-chrome-stable_current_amd64.deb
 get-pip.py
 package-lock.json
