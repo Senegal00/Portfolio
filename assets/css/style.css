@@ -1,10 +1,3 @@
-/**
-* Template Name: Personal - v4.9.1
-* Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -21,6 +14,8 @@ body::before {
   position: fixed;
   background: #040404 url("../img/bg.jpg") top right no-repeat;
   background-size: cover;
+  width: 1080px;
+  height: 1920px;
   left: 0;
   right: 0;
   top: 0;
@@ -33,7 +28,6 @@ body::before {
     background-attachment: fixed;
   }
 }
-
 a {
   color: #18d26e;
   text-decoration: none;
@@ -130,23 +124,19 @@ h6 {
   #header h1 {
     font-size: 36px;
   }
-
   #header h2 {
     font-size: 20px;
     line-height: 30px;
   }
-
   #header .social-links {
     margin-top: 15px;
   }
-
   #header .container {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 }
-
 /* Header Top */
 #header.header-top {
   height: 80px;
@@ -180,12 +170,10 @@ h6 {
   #header.header-top {
     height: 60px;
   }
-
   #header.header-top h1 {
     font-size: 26px;
   }
 }
-
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -280,12 +268,10 @@ h6 {
   .mobile-nav-toggle {
     display: block;
   }
-
   .navbar ul {
     display: none;
   }
 }
-
 .navbar-mobile {
   position: fixed;
   overflow: hidden;
@@ -362,12 +348,10 @@ section .container {
   section {
     top: 120px;
   }
-
   section.section-show {
     top: 80px;
   }
 }
-
 .section-title h2 {
   font-size: 14px;
   font-weight: 500;
@@ -646,7 +630,6 @@ section .container {
     padding-top: 20px;
   }
 }
-
 .portfolio-details .swiper-pagination {
   margin-top: 20px;
   position: relative;
@@ -758,7 +741,6 @@ section .container {
   margin: 0 10px -6px 0;
   border: 3px solid #18d26e;
   border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
 
@@ -784,6 +766,11 @@ section .container {
   opacity: 1;
 }
 
+.contact .php-email-form input::-moz-placeholder, .contact .php-email-form textarea::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.3);
+  opacity: 1;
+}
+
 .contact .php-email-form input::placeholder,
 .contact .php-email-form textarea::placeholder {
   color: rgba(255, 255, 255, 0.3);
@@ -798,7 +785,7 @@ section .container {
   padding: 12px 15px;
 }
 
-.contact .php-email-form button[type="submit"] {
+.contact .php-email-form button[type=submit] {
   background: #18d26e;
   border: 0;
   padding: 10px 30px;
@@ -807,30 +794,17 @@ section .container {
   border-radius: 4px;
 }
 
-.contact .php-email-form button[type="submit"]:hover {
+.contact .php-email-form button[type=submit]:hover {
   background: #15bb62;
 }
-
-@-webkit-keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
 @keyframes animate-loading {
   0% {
     transform: rotate(0deg);
   }
-
   100% {
     transform: rotate(360deg);
   }
 }
-
 /*--------------------------------------------------------------
 # Credits
 --------------------------------------------------------------*/
@@ -853,7 +827,6 @@ section .container {
     background: rgba(0, 0, 0, 0.8);
   }
 }
-
 .credits a {
   color: #18d26e;
   transition: 0.3s;
@@ -861,4 +834,4 @@ section .container {
 
 .credits a:hover {
   color: #fff;
-}
+}/*# sourceMappingURL=style.css.map */
